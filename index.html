@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StreamFlux · Descargar</title>
+  <meta name="description" content="Descarga StreamFlux para Android y Android TV: cine, series y TV en vivo." />
+  <meta name="theme-color" content="#08090d" />
+  <style>
+    :root {
+      --bg: #08090d;
+      --bg-elev: #0d0f15;
+      --surface: #141720;
+      --border: #272c39;
+      --text: #f5f7fc;
+      --text-soft: #cbd1df;
+      --text-dim: #9aa2b5;
+      --accent: #e50914;
+      --accent-soft: #ff5a66;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: radial-gradient(1200px 600px at 50% -10%, #1a0b10 0%, var(--bg) 55%) fixed, var(--bg);
+      color: var(--text);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo {
+      width: 52px; height: 52px; border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent), #a40610);
+      display: grid; place-items: center; font-weight: 900; font-size: 26px;
+      box-shadow: 0 10px 30px rgba(229, 9, 20, .35);
+    }
+    .brand h1 { margin: 0; font-size: 30px; letter-spacing: -.5px; }
+    .tagline { margin: 4px 0 0; color: var(--text-dim); }
+    .card {
+      margin-top: 32px; padding: 24px;
+      background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
+    }
+    .version-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; }
+    .version { font-size: 22px; font-weight: 800; }
+    .meta { color: var(--text-dim); font-size: 14px; }
+    .changelog { margin: 12px 0 0; color: var(--text-soft); white-space: pre-line; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      margin-top: 22px; width: 100%; min-height: 56px; padding: 0 24px;
+      background: var(--accent); color: #fff; text-decoration: none;
+      font-weight: 800; font-size: 18px; border-radius: 999px;
+      box-shadow: 0 12px 30px rgba(229, 9, 20, .3);
+      transition: transform .15s ease, background .15s ease;
+    }
+    .btn:hover { background: #ff1f2b; }
+    .btn:active { transform: scale(.98); }
+    .btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+    .btn svg { width: 22px; height: 22px; }
+    .hint { margin: 12px 0 0; text-align: center; color: var(--text-dim); font-size: 13px; }
+    h2 { margin: 40px 0 12px; font-size: 20px; }
+    .steps { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .step {
+      padding: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    }
+    .step h3 { margin: 0 0 8px; font-size: 16px; display: flex; align-items: center; gap: 8px; }
+    .step ol { margin: 0; padding-left: 20px; color: var(--text-soft); }
+    .step li + li { margin-top: 6px; }
+    code {
+      background: #1b1f2a; border: 1px solid var(--border); border-radius: 6px;
+      padding: 1px 6px; font-size: 13px; word-break: break-all;
+    }
+    .note {
+      margin-top: 28px; padding: 14px 16px; border-left: 3px solid var(--accent-soft);
+      background: var(--surface); border-radius: 8px; color: var(--text-soft); font-size: 14px;
+    }
+    footer { margin-top: 40px; color: var(--text-dim); font-size: 13px; text-align: center; }
+    .skeleton { color: transparent; background: #1b1f2a; border-radius: 6px; }
+    @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <div class="logo" aria-hidden="true">S</div>
+      <div>
+        <h1>StreamFlux</h1>
+        <p class="tagline">Cine, series y TV en vivo · Android y Android TV</p>
+      </div>
+    </header>
+
+    <section class="card" aria-live="polite">
+      <div class="version-row">
+        <span class="version" id="version"><span class="skeleton">v0.0.0</span></span>
+        <span class="meta" id="meta"></span>
+      </div>
+      <p class="changelog" id="changelog"></p>
+      <a class="btn" id="download" href="https://github.com/yeiler2111/streamflux-releases/releases/latest/download/streamflux.apk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Descargar APK
+      </a>
+      <p class="hint">Gratis · Requiere Android 7.0 o superior · Se actualiza sola desde la app</p>
+    </section>
+
+    <h2>Cómo instalar</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>📱 Celular o tablet</h3>
+        <ol>
+          <li>Toca <strong>Descargar APK</strong>.</li>
+          <li>Abre el archivo descargado.</li>
+          <li>Si Android lo pide, permite <strong>instalar apps desconocidas</strong> para tu navegador.</li>
+          <li>Toca <strong>Instalar</strong>.</li>
+        </ol>
+      </div>
+      <div class="step">
+        <h3>📺 Android TV / TV Box</h3>
+        <ol>
+          <li>Instala la app <strong>Downloader</strong> desde la tienda de tu TV.</li>
+          <li>En Downloader escribe:<br /><code>yeiler2111.github.io/streamflux-releases</code></li>
+          <li>Pulsa <strong>Descargar APK</strong> con el control remoto.</li>
+          <li>Permite instalar apps desconocidas para Downloader y confirma.</li>
+        </ol>
+      </div>
+    </div>
+
+    <p class="note">
+      Las nuevas versiones llegan dentro de la app: verás un aviso <strong>“Actualización disponible”</strong>.
+      No necesitas volver a esta página.
+    </p>
+
+    <footer>StreamFlux · <a href="https://github.com/yeiler2111/streamflux-releases/releases" style="color:inherit">Todas las versiones</a></footer>
+  </main>
+
+  <script>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      fetch("version.json?t=" + Date.now(), { cache: "no-store" })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (v) {
+          $("version").textContent = "v" + v.version;
+          var parts = [];
+          if (v.sizeMb) parts.push(v.sizeMb + " MB");
+          if (v.publishedAt) {
+            var d = new Date(v.publishedAt);
+            if (!isNaN(d)) parts.push(d.toLocaleDateString("es", { day: "numeric", month: "short", year: "numeric" }));
+          }
+          $("meta").textContent = parts.join(" · ");
+          $("changelog").textContent = v.changelog || "";
+          if (/^https:\/\//.test(v.url || "")) $("download").href = v.url;
+        })
+        .catch(function () {
+          $("version").textContent = "Última versión";
+        });
+    })();
+  </script>
+</body>
+</html>
