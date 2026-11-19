@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.4",
-    "versionCode":  7,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.4/streamflux.apk",
-    "changelog":  "Filtros Películas/Series, filas que continúan con títulos de su género o año, y nueva pantalla de inicio.",
-    "minVersionCode":  7,
-    "sizeMb":  46.4,
-    "publishedAt":  "2026-11-19T15:37:00Z"
+    "version":  "1.2.5",
+    "versionCode":  8,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.5/streamflux.apk",
+    "changelog":  "La app ya no se congela al cargar el catálogo: más rápida y fluida.",
+    "minVersionCode":  8,
+    "sizeMb":  46.7,
+    "publishedAt":  "2026-11-19T17:10:28Z"
 }
