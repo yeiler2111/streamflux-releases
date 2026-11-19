@@ -1,9 +1,9 @@
 {
-  "version": "1.2.2",
-  "versionCode": 5,
-  "url": "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.2/streamflux.apk",
-  "changelog": "Prueba de actualización automática.",
-  "minVersionCode": 5,
-  "sizeMb": 46.1,
-  "publishedAt": "2026-11-19T13:50:16Z"
+    "version":  "1.2.3",
+    "versionCode":  6,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.3/streamflux.apk",
+    "changelog":  "Nuevo loader animado, filas con desplazamiento infinito y mejor descarga de actualizaciones.",
+    "minVersionCode":  6,
+    "sizeMb":  46.1,
+    "publishedAt":  "2026-11-19T14:47:09Z"
 }
