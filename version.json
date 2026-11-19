@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.5",
-    "versionCode":  8,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.5/streamflux.apk",
-    "changelog":  "La app ya no se congela al cargar el catálogo: más rápida y fluida.",
-    "minVersionCode":  8,
+    "version":  "1.2.6",
+    "versionCode":  9,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.6/streamflux.apk",
+    "changelog":  "Idiomas de audio y subtítulos en el detalle (con preferencia recordada), selector de audio en el reproductor, aviso \u0027Continuando desde\u0027 y cuenta regresiva al siguiente episodio.",
+    "minVersionCode":  9,
     "sizeMb":  46.7,
-    "publishedAt":  "2026-11-19T17:10:28Z"
+    "publishedAt":  "2026-11-19T17:52:31Z"
 }
