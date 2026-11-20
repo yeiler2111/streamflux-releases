@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.6",
-    "versionCode":  9,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.6/streamflux.apk",
-    "changelog":  "Idiomas de audio y subtítulos en el detalle (con preferencia recordada), selector de audio en el reproductor, aviso \u0027Continuando desde\u0027 y cuenta regresiva al siguiente episodio.",
+    "version":  "1.2.7",
+    "versionCode":  10,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.7/streamflux.apk",
+    "changelog":  "Nueva interfaz estilo Netflix, seek más fluido en películas y series, sección +18 con PIN y Continuar viendo persistente. IMPORTANTE: esta versión usa una nueva firma; si la actualización falla, desinstala StreamFlux e instálala de nuevo desde la página de descargas.",
     "minVersionCode":  9,
-    "sizeMb":  46.7,
-    "publishedAt":  "2026-11-19T17:52:31Z"
+    "sizeMb":  46.5,
+    "publishedAt":  "2026-11-20T02:45:19Z"
 }
