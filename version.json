@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.7",
-    "versionCode":  10,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.7/streamflux.apk",
-    "changelog":  "Nueva interfaz estilo Netflix, seek más fluido en películas y series, sección +18 con PIN y Continuar viendo persistente. IMPORTANTE: esta versión usa una nueva firma; si la actualización falla, desinstala StreamFlux e instálala de nuevo desde la página de descargas.",
-    "minVersionCode":  9,
+    "version":  "1.2.8",
+    "versionCode":  11,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.8/streamflux.apk",
+    "changelog":  "Mejoras en el reproductor (reintentos más inteligentes y fuentes alternas automáticas), Continuar viendo con porcentaje visto, PIN de +18 corregido, mejor navegación con control remoto y más fluidez en TV.",
+    "minVersionCode":  11,
     "sizeMb":  46.5,
-    "publishedAt":  "2026-11-20T02:45:19Z"
+    "publishedAt":  "2026-11-21T12:41:30Z"
 }
