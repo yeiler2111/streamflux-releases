@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.8",
-    "versionCode":  11,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.8/streamflux.apk",
-    "changelog":  "Mejoras en el reproductor (reintentos más inteligentes y fuentes alternas automáticas), Continuar viendo con porcentaje visto, PIN de +18 corregido, mejor navegación con control remoto y más fluidez en TV.",
-    "minVersionCode":  11,
-    "sizeMb":  46.5,
-    "publishedAt":  "2026-11-21T12:41:30Z"
+    "version":  "1.2.9",
+    "versionCode":  12,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.9/streamflux.apk",
+    "changelog":  "Capítulos en el detalle y en el reproductor, cambio de capítulo desde el reproductor y paso automático al siguiente, subtítulos, Continuar viendo con el progreso real, mantener presionado para adelantar o retroceder y, en el móvil, brillo y volumen deslizando en la pantalla.",
+    "minVersionCode":  12,
+    "sizeMb":  46.6,
+    "publishedAt":  "2026-11-25T06:16:20Z"
 }
