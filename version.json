@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.9",
-    "versionCode":  12,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.9/streamflux.apk",
-    "changelog":  "Capítulos en el detalle y en el reproductor, cambio de capítulo desde el reproductor y paso automático al siguiente, subtítulos, Continuar viendo con el progreso real, mantener presionado para adelantar o retroceder y, en el móvil, brillo y volumen deslizando en la pantalla.",
-    "minVersionCode":  12,
+    "version":  "1.2.10",
+    "versionCode":  13,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.10/streamflux.apk",
+    "changelog":  "Subtítulos que ahora sí aparecen y más grandes, ventanita flotante (picture-in-picture) al salir de la app, Continuar viendo en el inicio y guardado aunque cierres la app, la lista de capítulos abre en el que estás viendo, brillo y volumen en los bordes y sin giro a vertical al cambiar de capítulo.",
+    "minVersionCode":  13,
     "sizeMb":  46.6,
-    "publishedAt":  "2026-11-25T06:16:20Z"
+    "publishedAt":  "2026-11-26T13:27:27Z"
 }
