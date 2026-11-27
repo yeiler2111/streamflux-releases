@@ -1,9 +1,9 @@
 {
-    "version":  "1.2.10",
-    "versionCode":  13,
-    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.10/streamflux.apk",
-    "changelog":  "Subtítulos que ahora sí aparecen y más grandes, ventanita flotante (picture-in-picture) al salir de la app, Continuar viendo en el inicio y guardado aunque cierres la app, la lista de capítulos abre en el que estás viendo, brillo y volumen en los bordes y sin giro a vertical al cambiar de capítulo.",
-    "minVersionCode":  13,
-    "sizeMb":  46.6,
-    "publishedAt":  "2026-11-26T13:27:27Z"
+    "version":  "1.2.11",
+    "versionCode":  14,
+    "url":  "https://github.com/yeiler2111/streamflux-releases/releases/download/v1.2.11/streamflux.apk",
+    "changelog":  "Recuerda tu idioma de audio y subtítulos, botón Saltar intro, temporizador de apagado, velocidad de reproducción (y mantener presionado para ir más rápido), candado de pantalla, hora de fin, Continuar T2 E5 en las series, pregunta Continuar o Empezar de nuevo, siguiente capítulo precargado, Más como esto, filtros en Películas y Series, marcar capítulos como vistos, banner de canal y volver al canal anterior, versión en la pantalla de inicio y nuevo logo animado.",
+    "minVersionCode":  14,
+    "sizeMb":  48.1,
+    "publishedAt":  "2026-11-27T05:08:20Z"
 }
